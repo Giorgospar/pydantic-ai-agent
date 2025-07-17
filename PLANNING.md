@@ -1,12 +1,5 @@
 # AI Agent Mastery Project Planning
 
-This document outlines the high-level design for building the MVP of our AI Agent Mastery agent built with Pydantic AI and based on our n8n agent prototype. This agent will have Agentic RAG capabilities, short term and long term memory, and the ability to search the internet, analyze images, and execute code it creates.
-
-We will be able to configure this agent to run entirely locally! There is not a separate agent for the local AI implementation like there is with n8n - that is one of the beauties of coding the agent ourself.
-
-## System Architecture
-
-Our system will consist of the following components (more complex UI with React will come later):
 
 ```
                     +----------------+
@@ -138,21 +131,3 @@ ai-agent-mastery/
 │   │   ├── drive_watcher.py   # Main logic to watch for local file changes and insert into the vector DB
 │   │   └── tests/             # Tests for local file RAG components
 ```
-
-## Testing Strategy
-
-Our testing approach covers testing individual components in isolation to start.
-
-## Future Enhancements
-
-The following enhancements are planned for future iterations of the course:
-
-1. **Advanced React-based Frontend**
-   - More interactive UI components
-   - Better visualization of RAG results
-   - Enhanced file management
-
-2. **Containerization with Docker**
-   - Docker setup for development environment
-   - Docker Compose for multi-container deployment
-   - Container orchestration for production

@@ -39,7 +39,6 @@ This document outlines the specific implementation tasks for building the MVP of
 - [X] Add support for optional local models
 - [X] Create environment variable configuration
 - [X] Implement conversation history
-- [ ] Write unit tests (in later module)
 
 ## Phase 3: Memory System
 
@@ -80,35 +79,3 @@ This document outlines the specific implementation tasks for building the MVP of
 - [X] Connect UI to agent
 - [X] Implement error handling
 - [X] Add loading indicators
-
-## Project Setup
-
-### Environment Configuration
-- [X] Create `.env.example` with all required variables
-- [X] Implement configuration loading
-- [X] Create environment validation
-
-### Documentation
-- [X] Complete README.md with setup instructions
-- [ ] Create usage examples
-
-### Testing
-- [X] Set up pytest configuration
-- [X] Create test fixtures
-- [ ] Implement integration tests (in later module)
-- [ ] Create end-to-end tests (in later module)
-
-## Future Enhancements (For Later Phases)
-
-### Advanced Frontend
-- React-based UI
-- Enhanced visualizations
-- Better file management
-
-### Containerization
-- Docker setup
-- Production deployment
-
-### Additional Data Sources
-- More document types
-- API integrations
